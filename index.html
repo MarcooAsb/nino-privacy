@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Datenschutzerklärung / Privacy Policy – Nino: Pixel Jump'n'Run</title>
+<style>
+  :root {
+    --bg: #fdf6e9;
+    --card: #ffffff;
+    --text: #2b2b2b;
+    --muted: #6b6b6b;
+    --accent: #c0532b;
+    --border: #e7dcc6;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+  header h1 {
+    font-size: 1.6rem;
+    margin: 0 0 4px;
+    color: var(--accent);
+  }
+  header p.app {
+    margin: 0 0 24px;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  .lang-switch {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 28px;
+  }
+  .lang-switch button {
+    border: 1px solid var(--border);
+    background: var(--card);
+    color: var(--text);
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  .lang-switch button.active {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+  }
+  section.policy {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 28px 26px;
+  }
+  h2 {
+    font-size: 1.15rem;
+    margin-top: 28px;
+    margin-bottom: 8px;
+  }
+  h2:first-of-type { margin-top: 0; }
+  p, li { font-size: 0.97rem; }
+  ul { padding-left: 20px; }
+  a { color: var(--accent); }
+  .updated {
+    color: var(--muted);
+    font-size: 0.85rem;
+    margin-top: 32px;
+  }
+  .hidden { display: none; }
+  footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.8rem;
+    margin-top: 32px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Datenschutzerklärung / Privacy Policy</h1>
+    <p class="app">Nino: Pixel Jump'n'Run</p>
+  </header>
+
+  <div class="lang-switch">
+    <button id="btn-de" class="active" onclick="switchLang('de')">Deutsch</button>
+    <button id="btn-en" onclick="switchLang('en')">English</button>
+  </div>
+
+  <!-- DEUTSCH -->
+  <section class="policy" id="de">
+    <h2>1. Überblick</h2>
+    <p>Diese Datenschutzerklärung informiert dich über den Umgang mit Daten bei der Nutzung der App „Nino: Pixel Jump'n'Run“ (im Folgenden „die App“). Der Schutz deiner Daten ist uns wichtig.</p>
+
+    <h2>2. Erhebung und Verarbeitung von Daten</h2>
+    <p>Die App erhebt, speichert und verarbeitet <strong>keine personenbezogenen Daten</strong>. Es werden keine Namen, E-Mail-Adressen, Standortdaten, Geräte-Kennungen oder Nutzungsdaten gesammelt oder an uns oder Dritte übertragen.</p>
+    <p>Spielfortschritt und Einstellungen werden ausschließlich lokal auf deinem Gerät gespeichert und verlassen dieses nicht.</p>
+
+    <h2>3. Käufe innerhalb der App</h2>
+    <p>Die App bietet optionale In-App-Käufe an. Diese werden vollständig über das Apple-App-Store-System abgewickelt. Wir erhalten dabei keine Zahlungsdaten. Es gilt die <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Datenschutzrichtlinie von Apple</a>.</p>
+
+    <h2>4. Analyse und Werbung</h2>
+    <p>Die App nutzt <strong>keine</strong> Analyse-Tools, kein Tracking und zeigt <strong>keine</strong> Werbung an.</p>
+
+    <h2>5. Kinder</h2>
+    <p>Die App ist auch für Kinder geeignet. Da die App keinerlei personenbezogene Daten erhebt, werden auch von Kindern keine Daten gesammelt oder verarbeitet. Die App entspricht damit den Anforderungen zum Schutz der Privatsphäre von Kindern.</p>
+
+    <h2>6. Änderungen dieser Datenschutzerklärung</h2>
+    <p>Wir behalten uns vor, diese Datenschutzerklärung anzupassen, falls sich der Funktionsumfang der App ändert. Die jeweils aktuelle Version ist auf dieser Seite abrufbar.</p>
+
+    <h2>7. Kontakt</h2>
+    <p>Bei Fragen zum Datenschutz kannst du uns kontaktieren unter: <a href="mailto:DEINE-EMAIL@beispiel.de">DEINE-EMAIL@beispiel.de</a></p>
+
+    <p class="updated">Stand: <span id="date-de"></span></p>
+  </section>
+
+  <!-- ENGLISH -->
+  <section class="policy hidden" id="en">
+    <h2>1. Overview</h2>
+    <p>This Privacy Policy explains how data is handled when using the app "Nino: Pixel Jump'n'Run" (the "App"). Protecting your privacy is important to us.</p>
+
+    <h2>2. Data Collection and Processing</h2>
+    <p>The App does <strong>not collect, store, or process any personal data</strong>. No names, email addresses, location data, device identifiers, or usage data are collected or transmitted to us or any third party.</p>
+    <p>Game progress and settings are stored exclusively on your local device and never leave it.</p>
+
+    <h2>3. In-App Purchases</h2>
+    <p>The App offers optional in-app purchases. These are handled entirely through the Apple App Store system. We do not receive any payment data. Apple's <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Privacy Policy</a> applies.</p>
+
+    <h2>4. Analytics and Advertising</h2>
+    <p>The App uses <strong>no</strong> analytics tools, <strong>no</strong> tracking, and displays <strong>no</strong> advertising.</p>
+
+    <h2>5. Children</h2>
+    <p>The App is suitable for children. As the App collects no personal data whatsoever, no data is collected or processed from children either. The App therefore complies with requirements for protecting children's privacy.</p>
+
+    <h2>6. Changes to This Privacy Policy</h2>
+    <p>We reserve the right to update this Privacy Policy if the functionality of the App changes. The current version is always available on this page.</p>
+
+    <h2>7. Contact</h2>
+    <p>If you have any questions regarding privacy, you can contact us at: <a href="mailto:DEINE-EMAIL@beispiel.de">DEINE-EMAIL@beispiel.de</a></p>
+
+    <p class="updated">Last updated: <span id="date-en"></span></p>
+  </section>
+
+  <footer>© <span id="year"></span> Nino: Pixel Jump'n'Run</footer>
+</div>
+
+<script>
+  function switchLang(lang) {
+    document.getElementById('de').classList.toggle('hidden', lang !== 'de');
+    document.getElementById('en').classList.toggle('hidden', lang !== 'en');
+    document.getElementById('btn-de').classList.toggle('active', lang === 'de');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    document.documentElement.lang = lang;
+  }
+  var d = new Date();
+  var dateStr = d.toLocaleDateString('de-DE', { year: 'numeric', month: 'long', day: 'numeric' });
+  var dateStrEn = d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  document.getElementById('date-de').textContent = dateStr;
+  document.getElementById('date-en').textContent = dateStrEn;
+  document.getElementById('year').textContent = d.getFullYear();
+</script>
+</body>
+</html>
